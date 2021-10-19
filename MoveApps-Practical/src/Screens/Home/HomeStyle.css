@@ -1,0 +1,426 @@
+/*============================
+        START BANNER
+============================*/
+.hero-banner {
+    position: relative;
+    height: calc(100vh - 106px);
+    background-image: url(../../resources/banner-img.png);
+    background-size: 100% 110%;
+    background-position: bottom left;
+}
+.hero-banner .container,
+.hero-banner .container-lg,
+.hero-banner .container-xl{
+    max-width: 86%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.hero-banner-content h2{
+    font-size: 5vw;
+    color: var(--themeBlue);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero-banner-content h4{
+    font-size: 2.2vw;
+    color: var(--1C1C1C);
+    font-weight: 600;
+    margin-bottom: 0.3vw;
+}
+.hero-banner-content h5{
+    font-size: 1.7vw;
+    color: var(--1C1C1C);
+    font-weight: 700;
+}
+.hero-banner-content .btn {
+    margin-top: 2vw;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+
+/*=================================
+        START ESTATE PLANING
+=================================*/
+.estate-planning-sec{
+    position: relative;
+    padding: 100px 0;
+    background-color: var(--white);
+
+}
+.estate-planning-content{
+    padding-left: 30px;
+}
+.estate-planning-content h4{
+    font-size: 30px;
+    color: var(--T333);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.estate-planning-content p{
+    font-size: 16px;
+    color: var(--T222);
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.estate-planning-content .btn{
+    color: var(--themeBlue);
+    font-weight: 600;
+    border-bottom: 2px solid var(--themeBlue);
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/*=================================
+        START DIVORCE SEC
+=================================*/
+.divorce-sec{
+    position: relative;
+    padding: 100px 0;
+    background-image: url(../../resources/blue-bg.png);
+    background-size: cover;
+    background-position: top left;
+    color: var(--white);
+    text-align: center;
+}
+.divorce-sec h3{
+    font-size: 25px;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+}
+.divorce-sec p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 50px 0;
+}
+.divorce-sec p.sub-para{
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.divorce-sec .fancy-devider{
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: var(--white);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+/*=================================
+        START TESTIMONIAL SEC
+=================================*/
+.testimonial-sec{
+    position: relative;
+    padding: 80px 0;
+    background-color: var(--white);
+}
+.client-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.client-row .client-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    border: 3px solid var(--themeBlue);
+    overflow: hidden;
+    display: block;
+}
+.client-row .client-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.client-row figure {
+    flex: 1;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+.client-row p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--T222);
+    margin-bottom: 20px;
+}
+.blockquote-footer{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--themeBlue);
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.testimonial-slider .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.testimonial-slider .owl-dots,
+.testimonial-slider .owl-nav button span{
+    display: none;
+}
+.testimonial-slider .owl-nav button{
+    position: relative;
+    width: 45px;
+    height: 25px;
+    padding: 0;
+    border: 2px solid var(--themeBlue) !important;
+    color: var(--themeBlue) !important;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+.testimonial-slider .owl-nav button:hover{
+    background-color: var(--themeBlue) !important;
+    color: var(--white) !important;
+}
+.testimonial-slider .owl-nav button.owl-prev:after,
+.testimonial-slider .owl-nav button.owl-next:after{
+    content: '\f060';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.testimonial-slider .owl-nav button.owl-next:after{
+    content: '\f061';
+}
+.testimonial-slider .owl-nav button.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/*=================================
+        START OFFFER SEC
+=================================*/
+.offer-sec{
+    position: relative;
+    padding: 80px 0;
+    background-color: var(--themeBlue);
+}
+.offer-sec .section-title{
+    color: var(--white);
+    margin-bottom: 80px;
+}
+.offer-sec .section-title:after{
+    background-color: var(--white);
+}
+.offer-content {
+    position: relative;
+    text-align: center;
+}
+.offer-content .img-wrap {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.offer-content h5 {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 500;
+}
+/*=================================
+        START CONTACT SEC
+=================================*/
+.contact-sec{
+    position: relative;
+    padding: 80px 0;
+    background-image: url(../../resources/map-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+.contact-form .form-control{
+    height: 48px;
+    background-color: var(--inputBG);
+    border: 2px solid var(--inputBorder);
+    border-radius: 4px;
+    color: var(--black);
+    font-weight: 500;
+}
+.contact-form textarea.form-control{
+    height: auto;
+}
+.contact-form .form-control::placeholder{
+    color: var(--T555);
+    font-weight: 500;
+}
+.contact-form .input-label{
+    font-size: 18px;
+    color: var(--themeBlue);
+    font-weight: 500;
+}
+.contact-form .form-check-input{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    /* background-color: var(--inputBG); */
+    border: 2px solid var(--inputBorder);
+}
+.contact-form .form-check-input:checked {
+    background-color: var(--themeBlue);
+    border-color: var(--themeBlue);
+}
+.contact-form .form-check-label{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--T333);
+    font-weight: 400;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.contact-form .form-check-label a{
+    text-decoration: underline !important;
+}
+.contact-form .btn-blue {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 25px;
+}
+
+
+/*===================================
+        Responsive View
+===================================*/
+@media (max-width:767px) {
+    .section-title{
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+    .hero-banner{
+        background-image: url(../../resources/banner-bg.png);
+        background-size: cover;
+        background-position: top left;
+    }
+    .hero-banner .container, .hero-banner .container-lg, .hero-banner .container-xl{
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-banner-content h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .hero-banner-content h4{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .hero-banner-content h5{
+        font-size: 18px;
+    }
+    .hero-banner-content .btn{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .estate-planning-sec{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .estate-planning-content{
+        padding-left: 0;
+    }
+    .estate-planning-content h4{
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .estate-planning-content p{
+        margin-top: 30px;
+    }
+    .divorce-sec{
+        padding: 30px 0;
+    }
+    .testimonial-sec{
+        padding: 30px 0;
+    }
+    .client-row{
+        align-items: flex-start;
+    }
+    .client-row .client-img{
+        width: 120px;
+        height: 120px;
+    }
+    .offer-sec{
+        padding: 30px 0;
+    }
+    .offer-sec .section-title{
+        margin-bottom: 40px;
+    }
+    .offer-sec .col-6{
+        border-right: 2px solid rgba(255,255,225,0.1);
+        border-bottom: 2px solid rgba(255,255,225,0.1);
+    }
+    .offer-sec .col-6:nth-child(2),
+    .offer-sec .col-6:nth-child(4),
+    .offer-sec .col-6:nth-child(6){
+        border-right: 0;
+    }
+    .offer-sec .col-6:nth-child(5),
+    .offer-sec .col-6:nth-child(6){
+        border-bottom: 0;
+    }
+    .offer-content .img-wrap{
+        width: 80px;
+        height: 80px;
+    }
+    .offer-content h5{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .contact-sec{
+        padding: 30px 0;
+    }
+}
+@media (max-width:575px) {
+    .client-row{
+        display: block;
+        text-align: center;
+    }
+    .client-row .client-img{
+        margin: 30px auto;
+        margin-top: 0;
+    }
+    .testimonial-sec {
+        padding-bottom: 80px;
+    }
+    .client-row figure {
+        padding-left: 0;
+    }    
+    .testimonial-slider .owl-nav {
+        right: auto;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

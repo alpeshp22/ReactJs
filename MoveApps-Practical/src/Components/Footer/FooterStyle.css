@@ -1,0 +1,141 @@
+.footer-sec{
+    position: relative;
+    padding: 80px 0;
+    background-color: var(--themeBlue);
+    color: var(--white);
+}
+.footer-title {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 2px solid var(--footerTitleBorder);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+ul.footer-links {
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+}
+ul.footer-links li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul.footer-links li a{
+    position: relative;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 500;
+    padding-left: 20px;
+}
+ul.footer-links li a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--footerTitleBorder);
+    border-radius: 75%;
+}
+.footer-add-row {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 500;
+}
+.footer-add-row img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.footer-add-row div {
+    flex: 1;
+    padding-left: 15px;
+}
+.footer-sec .review-btn{
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid var(--white);
+    padding: 6px 25px;
+    margin-left: 37px;
+}
+.footer-sec .review-btn:hover{
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+
+}
+.footer-bar{
+    position: relative;
+    padding: 30px 0;
+    background-color: var(--C1C1C1);
+    border-top: 3px solid var(--white);
+}
+.footer-bar p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--T555);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/*===================================
+            Responsive View
+===================================*/
+@media (max-width:767px) {
+    .footer-sec{
+        padding: 30px 0;
+    }
+    .footer-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    ul.footer-links li{
+        margin-bottom: 8px;
+    }
+    ul.footer-links li a,
+    .footer-add-row{
+        font-size: 14px;
+    }
+    .footer-add-row img{
+        width: 18px;
+        height: 18px;
+    }
+    .footer-bar p {
+        font-size: 12px;
+    }
+    .footer-sec .review-btn {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

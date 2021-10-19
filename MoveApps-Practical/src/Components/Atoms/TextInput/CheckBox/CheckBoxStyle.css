@@ -1,0 +1,22 @@
+.form-check-input{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    /* background-color: var(--inputBG); */
+    border: 2px solid var(--inputBorder);
+}
+.form-check-input:checked {
+    background-color: var(--themeBlue);
+    border-color: var(--themeBlue);
+}
+.form-check-label{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--T333);
+    font-weight: 400;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.form-check-label a{
+    text-decoration: underline !important;
+}

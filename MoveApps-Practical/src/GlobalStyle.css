@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*============================
+         COMMON STYLES
+============================*/
+:root{
+    --themeBlue: #3a4ba5;
+    --black: #000000;
+    --white: #FFFFFF;
+    --headerLik: #5a5555;
+    --inputBorder: #acacac;
+    --inputBG: #fbfbfb;
+    --footerTitleBorder: #6b7ddd;
+    --C1C1C1: #1C1C1C;
+    --T222: #222222;
+    --T333: #333333;
+    --T555: #555555;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+a:hover, a:focus{
+    color: inherit;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+a:hover, a:focus, button:hover, button:focus, .btn:hover, .btn:focus{
+    color: inherit;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.form-control:hover, .form-control:focus, .form-check-input:hover, .form-check-input:focus{
+    border-color: inherit;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.section-title{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--themeBlue);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 70px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--themeBlue);
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*============================
+        CUSTOM CLASSES
+============================*/
+.text-blue{
+    color: var(--themeBlue) !important;
+}
+.bg-blue{
+    background-color: var(--themeBlue) !important;
+}
+.btn-blue {
+    background-color: var(--themeBlue);
+    border-color: var(--themeBlue);
+    color: var(--white);
+    font-weight: 600;
+}
+.btn-blue:hover {
+    background-color: var(--C1C1C1);
+    border-color: var(--C1C1C1);
+    color: var(--white);
+}

@@ -1,0 +1,12 @@
+.form-control{
+    height: 48px;
+    background-color: var(--inputBG);
+    border: 2px solid var(--inputBorder);
+    border-radius: 4px;
+    color: var(--black);
+    font-weight: 500;
+}
+.form-control::placeholder{
+    color: var(--T555);
+    font-weight: 500;
+}
